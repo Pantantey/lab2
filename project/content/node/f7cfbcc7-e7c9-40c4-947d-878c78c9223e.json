@@ -1,0 +1,187 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/node\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/type\/node\/media"
+        },
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/revision_uid": [
+            {
+                "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/uid": [
+            {
+                "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/field_add_pdf": [
+            {
+                "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/sites\/default\/files\/2023-05\/Lab1%20andrey_0.pdf"
+            }
+        ],
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/field_tipo_de_licencia": [
+            {
+                "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f7cfbcc7-e7c9-40c4-947d-878c78c9223e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "media"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-05-28T23:08:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d8c2e8ed-bf05-43f3-b9f3-04304357867e"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d8c2e8ed-bf05-43f3-b9f3-04304357867e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/field_add_pdf": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/sites\/default\/files\/2023-05\/Lab1%20andrey_0.pdf"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f621ebb7-ec6c-477a-babd-c9e432c93de4"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/relation\/node\/media\/field_tipo_de_licencia": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-pantantey-lab2-ixwazd7xu2i.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/licencias"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "59e2feb6-9d0d-43ca-87b5-473839950131"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "lab1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-28T23:08:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-28T23:08:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}
