@@ -1,0 +1,29 @@
+uuid: 9d7a51ea-a3d3-42c1-94fd-7c9c5f29ce48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_licencia
+    - node.type.media
+    - taxonomy.vocabulary.licencias
+id: node.media.field_tipo_de_licencia
+field_name: field_tipo_de_licencia
+entity_type: node
+bundle: media
+label: 'Tipo de licencia'
+description: 'Copyright o Copyleft'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencias: licencias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

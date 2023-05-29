@@ -1,0 +1,31 @@
+uuid: e6437d74-34f1-4a10-9bad-71c3c019d94a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.media.field_add_pdf
+    - field.field.node.media.field_tipo_de_licencia
+    - node.type.media
+  module:
+    - user
+id: node.media.teaser
+targetEntityType: node
+bundle: media
+mode: teaser
+content:
+  field_tipo_de_licencia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_add_pdf: true

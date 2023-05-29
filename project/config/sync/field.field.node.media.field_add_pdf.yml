@@ -1,0 +1,27 @@
+uuid: a1255c45-5393-4907-a2c4-c3d950d2f91d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_pdf
+    - node.type.media
+  module:
+    - file
+id: node.media.field_add_pdf
+field_name: field_add_pdf
+entity_type: node
+bundle: media
+label: 'Add PDF'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

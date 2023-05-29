@@ -1,0 +1,20 @@
+uuid: 83795f00-27b1-402d-971a-8e56e7a64a0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_tipo_de_licencia
+field_name: field_tipo_de_licencia
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
