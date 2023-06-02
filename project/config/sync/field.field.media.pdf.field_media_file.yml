@@ -1,20 +1,20 @@
-uuid: a1255c45-5393-4907-a2c4-c3d950d2f91d
+uuid: d0226fd7-82d3-4b8a-a2d6-ddafbc77d1b9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_add_pdf
-    - node.type.media
+    - field.storage.media.field_media_file
+    - media.type.pdf
   module:
     - file
-id: node.media.field_add_pdf
-field_name: field_add_pdf
-entity_type: node
-bundle: media
-label: 'Add PDF'
+id: media.pdf.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: pdf
+label: 'PDF File'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

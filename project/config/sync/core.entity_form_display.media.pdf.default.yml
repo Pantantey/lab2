@@ -1,0 +1,45 @@
+uuid: 47fb0a6f-1e96-4070-a04a-4593abdcc2c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.pdf.field_media_file
+    - field.field.media.pdf.field_tipo_de_licencia
+    - media.type.pdf
+  module:
+    - file
+id: media.pdf.default
+targetEntityType: media
+bundle: pdf
+mode: default
+content:
+  field_media_file:
+    type: file_generic
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_tipo_de_licencia:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  status: true
+  uid: true

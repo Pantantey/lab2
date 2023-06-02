@@ -1,13 +1,13 @@
-uuid: 83795f00-27b1-402d-971a-8e56e7a64a0c
+uuid: a371f913-2bb5-447b-9c5b-cf13a7aa275b
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - media
     - taxonomy
-id: node.field_tipo_de_licencia
+id: media.field_tipo_de_licencia
 field_name: field_tipo_de_licencia
-entity_type: node
+entity_type: media
 type: entity_reference
 settings:
   target_type: taxonomy_term

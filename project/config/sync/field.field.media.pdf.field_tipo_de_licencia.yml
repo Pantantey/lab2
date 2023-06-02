@@ -1,18 +1,18 @@
-uuid: 9d7a51ea-a3d3-42c1-94fd-7c9c5f29ce48
+uuid: 79b3af73-26ae-4faa-9549-b1b091422f66
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tipo_de_licencia
-    - node.type.media
+    - field.storage.media.field_tipo_de_licencia
+    - media.type.pdf
     - taxonomy.vocabulary.licencias
-id: node.media.field_tipo_de_licencia
+id: media.pdf.field_tipo_de_licencia
 field_name: field_tipo_de_licencia
-entity_type: node
-bundle: media
+entity_type: media
+bundle: pdf
 label: 'Tipo de licencia'
 description: 'Copyright o Copyleft'
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

@@ -1,13 +1,13 @@
-uuid: 4d4c8620-d8da-42cf-8121-9f6263f78444
+uuid: cbe4849a-ec3f-4045-87ed-2941969e2071
 langcode: en
 status: true
 dependencies:
   module:
     - file
-    - node
-id: node.field_add_pdf
-field_name: field_add_pdf
-entity_type: node
+    - media
+id: media.field_media_file
+field_name: field_media_file
+entity_type: media
 type: file
 settings:
   target_type: file
